@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Карточка</title> 
+<meta charset = "utf-8"> 
+<link rel = "stylesheet" href="../public/style.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+</head> 
+<body> 
+	<div class="all">
+		<p> </p>
+		<h1>Саржан Михаил Андреевич ИДБ-18-02</h1>
+		<p class="image"><img src="../public/image/Студент.jpg" title="А вот и я (нет)"></p>
+		<label><p class="description" id="desc">Обычный московский студент. Ем, пью, сплю, дышу, живу и учусь. Иногда я люблю ходить гулять с друзьями пока не закончится социальная энергия, а в плохую погоду люблю играть в игры или смотреть интересные фильмы. Мне очень нравится музыка, поэтому иногда я люблю петь.</p></label>
+	</div>
+	<div class="jsTable">
+		<p><button id="showJs">Проверим js?</button></p>
+		<table hidden="true" id="table">
+			<tr>
+				<td>Введите, распишитесь и получите обратно:</td>
+				<td><input type="text" id="text1"></td>
+				<td><button id="getText">Верните!</button></td>
+				<td id="resultText">Получите: </td>
+			</tr>
+			<tr>
+				<td>Введите суммируемые числа:</td>
+				<td><input type="number" id="num1"><input type="number" id="num2"></td>
+				<td><button id="getSumm">Складываем</button></td>
+				<td id="resultSumm">Сумма: </td>
+			</tr>
+			<tr>
+				<td>Введите несколько значений через пробел:</td>
+				<td><input type="text" id="textArr"></td>
+				<td><button id="getSqtArr">Ввел!</button></td>
+				<td id="resultSqrArr">Квадраты значений: </td>
+			</tr>
+		</table>
+	</div>
+</body> 
+<script src="../public/script.js"></script>
+</html> 

@@ -1,0 +1,88 @@
+.all {
+	width: 1134px;
+	height: 695px;
+	margin: auto;
+	background-image: url(../public/image/Карточка.jpg)
+}
+
+h1 {
+	width: 600px;
+    padding: 10px;
+    margin: auto;
+    background: #fefcea;
+    background: linear-gradient(to left, #0c6f82, #0e2247 );
+	color: Gainsboro;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.image {
+	width: 537px;
+	height: 379px;
+    margin: auto;
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    transition: all 0.4s ease-out;
+}
+
+
+.image:hover {
+    box-shadow: 6px 14px 40px 0px rgba(0,0,0,0.75);
+}
+
+.description {
+	width: 600px;
+    padding: 10px;
+    margin: auto;
+    background: #fefcea;
+    background: linear-gradient(to left, #10e0d3, #0e8790 );
+    text-align: center;
+    border-radius: 0 10px;
+    box-shadow: 6px 14px 40px 0px rgba(14, 135, 144, 0.75);
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+label {
+    padding: 10px;
+}
+
+.jsTable p {
+    margin: auto;
+    width: 200px;
+}
+
+.jsTable p button {
+    width: 200px;
+    margin: 0 0 20px 0;
+    box-shadow: 6px 14px 40px 0px rgba(0, 0, 0, 0.75);
+    transition: opacity 0.4s ease-in-out;
+    font-size: 20px;
+}
+.jsTable p button:hover {
+    box-shadow: 3px 7px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+button {
+    border-radius: 3px;
+}
+button:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+button:active { background: rgb(152,15,0); } 
+
+table {
+    width: auto;
+    margin: auto;
+    border: 5px solid #cccccc;
+    background: linear-gradient(to left, PaleTurquoise, LightSalmon );
+    font-size: 20px;
+}
+
+input[type="text"] {
+    box-shadow: 6px 14px 40px 0px rgba(14, 135, 144, 0.75);
+    padding: 2px;
+    width: 96.5%;
+}
+input[type="number"] {
+    box-shadow: 6px 14px 40px 0px rgba(14, 135, 144, 0.75);
+    padding: 2px;
+    width: 47%;
+}
